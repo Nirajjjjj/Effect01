@@ -1,0 +1,46 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+}
+h2{
+    color: chocolate;
+    text-align: center;
+    text-decoration: underline;
+}
+
+#center{
+    width: 60%;
+    height: 60%;
+    background-color: rgb(131, 22, 22);
+    position:absolute ;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+}
+
+.imagediv{
+    height: 240px;
+    width: 180px;
+    position: absolute;
+    /* background-color: yellow; */
+    /* transform: translate(-50%,-50%); */
+    overflow: hidden;
+    
+}
+
+.imagediv img{
+    transform: translateY(100%);
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+
+/* wrong concept(i don't know how to use transition so use GSAP ) */
+/* .imagediv img:hover{
+    transition:translateY(0),1s;
+} */
